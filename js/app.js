@@ -25,6 +25,7 @@
             success:function(data){
                 $("#prikaz").empty();
                 $("#prikaz").removeClass("hidden");
+                console.log(data);
                 var result = $.parseJSON(data);
                 $("#prikaz").append("<thead>" +
                     "<th>ID</th>" +
