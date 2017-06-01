@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    font-size: large;
+}
+/*>>>>>>>>>>    sections <<<<<<<<<<<<*/
+.sec{
+    padding: 5em 1em 1.5em 1em;
+    min-height: 100%;
+    background-color: #dfdfdf;
+}
+#home{
+    color: #fff;
+    padding: 10em 1em;
+    background-color: transparent;
+}
+#contact{
+    background-color: #0EBFE9;
+}
+footer{
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+    padding-top:20px;
+    overflow: hidden;
+}
+video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+/*>>>>>>>>>>>   content <<<<<<<<<<<<*/
+#home a *{
+    padding: 15px;
+    padding-top: 20px;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    background: rgba(2,2,2,0.78);
+    text-decoration: none;
+    color: #ecd7c7;
+    transition: all ease-in-out 200ms;
+}
+#home a *:hover{
+    background: rgba(255,255,255,0.8);
+    color: #333333;
+}
+.item{
+    min-width: 360px;
+    height: auto;
+    margin: 5px;
+    float: left;
+    border: solid thin black;
+    padding: 5px;
+}
+/*>>>>>>>>>>>   navigation  <<<<<<<<<<<<*/
+#menu-button{
+    color: #fff;
+    padding: 15px 30px 5px 30px;
+}
+.text-total{
+    padding-right: 10px;
+}
+
+/*>>>>>>>>>>    responsive rules    <<<<<<<<<<<<<*/
+@media only screen and(max-width:960px){
+    #home-intro{
+        display: block;
+        margin-top: 2em;
+        margin-bottom: 35%;
+    }
+}
+@media only screen and (max-width:500px){
+    #home{
+        padding-top: 2em;
+    }
+    #home-intro{
+        display: block;
+        margin-top: 70%;
+        margin-bottom: 65%;
+    }
+    .sec{
+        height: auto;
+    }
+}
