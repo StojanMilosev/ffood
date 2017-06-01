@@ -89,7 +89,6 @@ include('includes/header.php');
           dolore eu fugiat nulla pariatur. Excepteur int occaecat cupidatat 
           non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
         </p><br>
-        <h2 class="text-center">lista</h2><br>
         <div class="col-md-offset-3 col-md-6 col-xs-12">
           <table class="table table-hover table-responsive">
                 <?php
@@ -125,7 +124,6 @@ include('includes/header.php');
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
           non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
         </p><br>
-        <h2>lista</h2>
         <div class="col-md-offset-3 col-md-6 col-xs-12">
             <table class="table table-hover">
                 <?php
@@ -161,7 +159,6 @@ include('includes/header.php');
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
           non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
         </p><br>
-        <h2>lista</h2>
         <div class="col-md-offset-3 col-md-6 col-xs-12">
           <table class="table table-hover">
                 <?php
