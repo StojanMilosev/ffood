@@ -46,7 +46,7 @@ include('includes/header.php');
     <div class="row">                          
       <div class="sec" id="home">
         <video autoplay mute loop>
-          <source src="img/bbq.mp4">
+          <source src="img/bbq.webm">
         </video>
         <div class="container container-fluid">
           <div class="row" id="home-intro">
