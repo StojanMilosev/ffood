@@ -25,7 +25,6 @@
               <li class="link"><a href="#pice">Pice</a></li>
               <li class="link"><a href="#rostilj">Rostilj</a></li>
               <li class="link"><a href="#contact">Contact</a></li>
-              <li class="link"><a href="items.php">admin</a></li>
             </ul>
             <form class="navbar-form navbar-right">
                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" id="order-modal">
