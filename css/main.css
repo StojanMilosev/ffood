@@ -3,12 +3,13 @@ body{
     margin: 0;
     min-height: 100%;
     font-size: large;
+    font-family: 'Nunito', sans-serif;
 }
 /*>>>>>>>>>>    sections <<<<<<<<<<<<*/
 .sec{
-    padding: 5em 1em 1.5em 1em;
+    padding: 0 1em 1.5em 1em;
     min-height: 100%;
-    background-color: #dfdfdf;
+    background-color: #fafafa;
 }
 #home{
     color: #fff;
@@ -67,7 +68,21 @@ video{
 .text-total{
     padding-right: 10px;
 }
-
+.section-head{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+.section-head-sendvici{
+    background-image: url("../img/sendvic.jpg");
+}
+.section-head-pice{
+    background-image: url("../img/pica.jpg");
+}
+.section-head-rostilj{
+    background-image: url("../img/rostilj.jpg");
+}
 /*>>>>>>>>>>    responsive rules    <<<<<<<<<<<<<*/
 @media only screen and(max-width:960px){
     #home-intro{

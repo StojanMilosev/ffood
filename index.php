@@ -59,7 +59,7 @@ include('includes/header.php');
           <div class="row home">
             <div class="col-md-offset-1 col-md-3 col-xs-12">
                 <a href="#sendvici">
-                    <h2 class="text-center">Sendvici</h2>
+                    <h2 class="text-center">Sendviči</h2>
                 </a>
             </div>
             <div class="col-md-offset-1 col-md-3 col-xs-12">
@@ -69,7 +69,7 @@ include('includes/header.php');
             </div>
             <div class="col-md-offset-1 col-md-3 col-xs-12">
                 <a href="#rostilj">
-                    <h2 class="text-center">Rostilj</h2>
+                    <h2 class="text-center">Roštilj</h2>
                 </a>
             </div>
           </div>
@@ -78,19 +78,20 @@ include('includes/header.php');
     </div>
   <div class="row">
     <div class="sec" id="sendvici">
-      <div class="container container-fluid">                   
-        <h1 class="text- col-md-3 col-xs-12 text-center">Sendvici</h1>
-        <p class="col-md-9">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna 
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
-          aute irure dolor in reprehenderit in voluptate velit esse cillum 
-          dolore eu fugiat nulla pariatur. Excepteur int occaecat cupidatat 
-          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-        </p><br>
+        <div class="section-head section-head-sendvici">
+            <div class="container container-fluid">
+                <h1 class="page-header text-center">Sendviči</h1>
+                <p class="col-md-offset-2 col-md-8 col-xs-12 text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna 
+                  aliqua. 
+                </p>
+            </div>
+          </div>
+      <div class="container container-fluid">      
         <div class="col-md-offset-3 col-md-6 col-xs-12">
-          <table class="table table-hover table-responsive">
+            <br>
+            <table class="table table-hover table-responsive">
                 <?php
                 $query = "SELECT * FROM sendvici";
                 if ($result = mysqli_query($connection,$query)) {
@@ -113,18 +114,19 @@ include('includes/header.php');
   </div>
   <div class="row">
     <div class="sec" id="pice">
+        <div class="section-head section-head-pice">
+            <div class="container container-fluid">
+                <h1 class="page-header text-center">Pice</h1>
+                <p class="col-md-offset-2 col-md-8 col-xs-12 text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna 
+                  aliqua. 
+                </p>
+            </div>
+          </div>
       <div class="container container-fluid">
-        <h1 class="col-md-3 col-xs-12 text-center">Pice                    </h1>
-        <p class="col-md-9 col-xs-12">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna 
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
-          aute irure dolor in reprehenderit in voluptate velit esse cillum 
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-        </p><br>
         <div class="col-md-offset-3 col-md-6 col-xs-12">
+            <br>
             <table class="table table-hover">
                 <?php
                 $query = "SELECT * FROM pice";
@@ -148,19 +150,20 @@ include('includes/header.php');
   </div>
   <div class="row">
     <div class="sec" id="rostilj">
+        <div class="section-head section-head-rostilj">
+            <div class="container container-fluid">
+                <h1 class="page-header text-center">Roštilj</h1>
+                <p class="col-md-offset-2 col-md-8 col-xs-12 text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna 
+                  aliqua. 
+                </p>
+            </div>
+          </div>
       <div class="container container-fluid">
-        <h1 class="col-md-3 col-xs-12 text-center">Rostilj</h1>
-        <p class="col-md-9 col-xs-12">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-          sed do eiusmod tempor incididunt ut labore et dolore magna 
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
-          aute irure dolor in reprehenderit in voluptate velit esse cillum 
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-        </p><br>
         <div class="col-md-offset-3 col-md-6 col-xs-12">
-          <table class="table table-hover">
+          <br>
+            <table class="table table-hover">
                 <?php
                 $query = "SELECT * FROM rostilj";
                 if ($result = mysqli_query($connection,$query)) {
