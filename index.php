@@ -127,7 +127,7 @@ include('includes/header.php');
       <div class="container container-fluid">
         <div class="col-md-offset-3 col-md-6 col-xs-12">
             <br>
-            <table class="table table-hover">
+            <table class="table table-hover table-striped">
                 <?php
                 $query = "SELECT * FROM pice";
                 if ($result = mysqli_query($connection,$query)) {
