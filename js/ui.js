@@ -21,8 +21,7 @@ $('document').ready(function(){
     //auto collapse menu in mobile view fix
     $(".navbar-nav li a").click(function(event) {
         $(".navbar-collapse").collapse('hide');
-    });   
-    
+    });
     //dodavanje proizvoda u narudzbinu
     $(".item-button").click(function(){
         //menjane stila dugmeta za prikazivanje proudzbine

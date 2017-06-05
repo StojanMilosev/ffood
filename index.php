@@ -56,23 +56,7 @@ include('includes/header.php');
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,                        
             </p>
           </div><br>
-          <div class="row home">
-            <div class="col-md-offset-1 col-md-3 col-xs-12">
-                <a href="#sendvici">
-                    <h2 class="text-center">Sendviči</h2>
-                </a>
-            </div>
-            <div class="col-md-offset-1 col-md-3 col-xs-12">
-                <a href="#pice">
-                    <h2 class="text-center">Pice</h2>
-                </a>
-            </div>
-            <div class="col-md-offset-1 col-md-3 col-xs-12">
-                <a href="#rostilj">
-                    <h2 class="text-center">Roštilj</h2>
-                </a>
-            </div>
-          </div>
+          
         </div><br>
       </div>
     </div>
@@ -80,7 +64,7 @@ include('includes/header.php');
     <div class="sec" id="sendvici">
         <div class="section-head section-head-sendvici">
             <div class="container container-fluid">
-                <h1 class="page-header text-center">Sendviči</h1>
+                <h1 class="page-header text-center">Sendvici</h1>
                 <p class="col-md-offset-2 col-md-8 col-xs-12 text-center">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                   sed do eiusmod tempor incididunt ut labore et dolore magna 
