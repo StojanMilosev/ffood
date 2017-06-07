@@ -1,10 +1,13 @@
 <?php
-    $dbout = parse_url(getenv('DATABASE_URL'));
+    $host = getenv('DB_HOST');
+    $name = getenv('DB_NAME');
+    $user = getenv('DB_USER');
+    $pass = getenv('DB_PASS');
     return (object) array(
-        'db_host'=>$dbout["host"],
-        'db_name'=>'heroku_a8fa9b4847b6257',
-        'db_username'=>'b08f00a8f7b126',
-        'db_password'=>'ddb49660',
+        'db_host'=>$host,
+        'db_name'=>$name,
+        'db_username'=>$user,
+        'db_password'=>$pass,
         'smtp_host'=>'',
         'smtp_port'=>'',
         'smtp_username'=>'',
