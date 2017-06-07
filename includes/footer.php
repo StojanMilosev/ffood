@@ -1,7 +1,11 @@
         <div class="row">      
             <div class="sec" id="contact">
+                <div class="section-head">
+                    <div class="container container-fluid">
+                        <h1 class="page-header text-center">Kontakt</h1>
+                    </div>
+                  </div>
                 <div class="container container-fluid">
-                    <h1 class="text-center">Contact</h1><br>
                     <div class="col-md-6">
                     <p>Kontakt telefon: 
                         <h3>064/6809404</h3>
