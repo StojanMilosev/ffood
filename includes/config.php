@@ -12,7 +12,7 @@
     $smtp_pass = getenv('SMTP_PASS');
     return (object) array(
         'db_host'=>$db_host,
-        'db_name'=>$db_namee,
+        'db_name'=>$db_name,
         'db_username'=>$db_user,
         'db_password'=>$db_pass,
         'smtp_host'=>$smtp_host,
