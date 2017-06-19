@@ -15,7 +15,7 @@
                     </p>
                     </div>
                     <div class="col-md-6 col-xs-12">
-                        <form class="form-horizontal" role="form" method="post" action="index.php">
+                        <form class="form-horizontal" role="form" method="post" action="includes/mail.php">
                             <div class="form-group">
                                 <div class="col-md-2 col-xs-12">
                                     <label class="control-label" for="name">Ime</label>

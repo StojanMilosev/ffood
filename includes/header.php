@@ -31,7 +31,12 @@
                   <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" id="order-modal">
                       Porudzbina
                   </button>
-              </form> 
+              </form>
+              <p>
+                  <?php
+                    echo $msg;
+                  ?>
+              </p>
           </div>
         </div>
       </nav>
