@@ -70,4 +70,14 @@ $('document').ready(function(){
                     );
         }
     });
+    $("#submit").click(function(){
+        $.ajax({
+            type:"post",
+            url:"includes/mail.php",
+            data:$("#mailform").serialize(),
+            success:function(data){
+               alert(data);
+            }
+        });
+    });
 });

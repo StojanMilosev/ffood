@@ -33,9 +33,7 @@
                   </button>
               </form>
               <p>
-                  <?php
-                    echo $msg;
-                  ?>
+                  
               </p>
           </div>
         </div>

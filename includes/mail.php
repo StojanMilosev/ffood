@@ -1,4 +1,6 @@
 <?php
+    $cfg = include('config.php');
+
     if(array_key_exists('email', $_POST)){
        date_default_timezone_set('Etc/UTC');
 
@@ -14,13 +16,13 @@
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = $cfg->smtp_username;                 // SMTP username
     $mail->Password = $cfg->smtp_password;
-
+    $mail->SMTPSecure = 'tls';
     //Use a fixed address in your own domain as the from address
     //**DO NOT** use the submitter's address here as it will be forgery
     //and will cause your messages to fail SPF checks
-    $mail->setFrom('fast@food.com', '');
+    $mail->From = 'fast@food.com';
     //Send the message to yourself, or whoever should receive contact for submissions
-    $mail->addAddress('email@example.com', 'John Doe');
+    $mail->addAddress('stojancina@hotmail.com');
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
     //in which case we should ignore the whole request
@@ -38,12 +40,12 @@ EOT;
         if (!$mail->send()) {
             //The reason for failing to send will be in $mail->ErrorInfo
             //but you shouldn't display errors to users - process the error, log it on your server.
-            $msg = 'Sorry, something went wrong. Please try again later.';
+            echo $mail->ErrorInfo;
         } else {
-            $msg = 'Order sent! Thanks for contacting us.';
+            echo 'Order sent! Thanks for contacting us.';
         }
     } else {
-        $msg = 'Invalid email address, message ignored.';
+        echo 'Invalid email address, message ignored.';
     } 
     }
     
