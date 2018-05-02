@@ -15,7 +15,7 @@
                     </p>
                     </div>
                     <div class="col-md-6 col-xs-12">
-                        <form class="form-horizontal" role="form" method="post" action="index.php">
+                        <form class="form-horizontal" role="form" id="mailform">
                             <div class="form-group">
                                 <div class="col-md-2 col-xs-12">
                                     <label class="control-label" for="name">Ime</label>
@@ -50,10 +50,11 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-md-offset-2 col-md-6 col-xs-12">
-                                    <input class="btn btn-primary" id="submit" ame="submit" type="submit" value="Send" onclick="send()">
+                                    <button class="btn btn-primary" id="submit" type="button" name="submit">Send</button>
                                 </div>
                             </div>
                         </form>
+                        
                     </div>
                 </div>
             </div>

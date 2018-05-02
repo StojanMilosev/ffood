@@ -1,15 +1,10 @@
 <?php
-$msg='';
+include ('includes/crud.php');
 $cfg = include('includes/config.php');
-//require('includes/data.php');
-require('includes/mail.php');
-require ('includes/crud.php');
 
-//instanciranje konekije za bazom podataka
-//$instance = ConnectDb::getInstance();
+
 $connection = mysqli_connect($cfg->db_host,$cfg->db_username,$cfg->db_password,$cfg->db_name);//$instance->getConnection();
-//instanciranje logger-a
-//$logger = Logger::getInstance();
+
 
 if(mysqli_connect_errno()){
        $msg = mysqli_connect_error();
